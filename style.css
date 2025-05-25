@@ -4,6 +4,7 @@
     --branco: white;
     --cor-de-fundo: #9f0808;
     --fundo-senha: #000000;
+    --fundo-barra: #101010;
     --fundo-texto: #000000;
     --borda: #ffffff;
     --roboto: 'Roboto', sans-serif;
@@ -109,6 +110,46 @@ body {
     margin: 0;
     font-size: 24px;
 }
+
+label {
+    font-size: 20px;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra {
+    background-color: var(--fundo-barra);
+    height: 30px;
+    width: 100%;
+    
+}
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: #E71B32; 
+}
+.media{
+    background-color: #690000;
+    width: 50%;
+}
+.forte{
+    background-color: #430000;
+    width: 100%;
+}
+
+.parametro-senha-textos {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
